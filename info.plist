@@ -8,11 +8,34 @@
 	<string>Internet</string>
 	<key>connections</key>
 	<dict>
-		<key>151A838F-81AF-4C78-AF51-632530A6CAC1</key>
+		<key>026453CE-5E8E-4B55-A78F-E6EA5FEE3E86</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>DDF38F23-0AA3-440F-9C4C-BF42994F0224</string>
+				<string>38CB5299-5A1D-4D96-8397-FDB08AC71BA1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F1D4564D-E288-4732-8416-492BCC3510AF</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+		</array>
+		<key>38CB5299-5A1D-4D96-8397-FDB08AC71BA1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2E8FCE1A-3683-497F-AF6F-7E96424E4BAF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -21,36 +44,60 @@
 				<false/>
 			</dict>
 		</array>
-		<key>264A09D9-DE34-403A-9524-C67F6525811D</key>
+		<key>3EF4B360-E876-4B64-A95E-2AEA71D1F461</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>1D069891-2539-416B-B800-085A44E22DF1</string>
+				<string>6B677F8C-DBDF-490D-B5FB-23D94205F4B1</string>
 				<key>modifiers</key>
-				<integer>524288</integer>
+				<integer>0</integer>
 				<key>modifiersubtext</key>
-				<string>Google incorgnito</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>77ACA42E-0216-46CD-B8BE-7F4079AA30CC</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string>Google in new tab</string>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
 		</array>
-		<key>7686C74A-A33F-49C2-8231-40F1569A481A</key>
-		<array/>
+		<key>6B677F8C-DBDF-490D-B5FB-23D94205F4B1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>38CB5299-5A1D-4D96-8397-FDB08AC71BA1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C5B022E8-F557-41F0-8FF8-B3A9FF596214</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>38CB5299-5A1D-4D96-8397-FDB08AC71BA1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F1D4564D-E288-4732-8416-492BCC3510AF</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>CFA34215-ED7D-448E-B73A-C3998A8C1AE6</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>DDF38F23-0AA3-440F-9C4C-BF42994F0224</string>
+				<string>38CB5299-5A1D-4D96-8397-FDB08AC71BA1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -59,11 +106,24 @@
 				<false/>
 			</dict>
 		</array>
-		<key>DFC5A037-E66B-4EB7-BAFE-02D533F9E4A3</key>
+		<key>DFE81DF4-B35B-46E2-9687-47BBF26AD2AA</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>DDF38F23-0AA3-440F-9C4C-BF42994F0224</string>
+				<string>026453CE-5E8E-4B55-A78F-E6EA5FEE3E86</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F1D4564D-E288-4732-8416-492BCC3510AF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3EF4B360-E876-4B64-A95E-2AEA71D1F461</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -80,9 +140,74 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Open new google chrome browser</string>
+	<string>search google in new chrome window</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>CFA34215-ED7D-448E-B73A-C3998A8C1AE6</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>searchgoogle</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>DFE81DF4-B35B-46E2-9687-47BBF26AD2AA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>g</string>
+				<key>subtext</key>
+				<string>⌘ = list others</string>
+				<key>text</key>
+				<string>Go to Search List</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>026453CE-5E8E-4B55-A78F-E6EA5FEE3E86</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -106,233 +231,92 @@
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>DDF38F23-0AA3-440F-9C4C-BF42994F0224</string>
+			<string>2E8FCE1A-3683-497F-AF6F-7E96424E4BAF</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>1</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>6</integer>
-				<key>hotmod</key>
-				<integer>1966080</integer>
-				<key>hotstring</key>
-				<string>Z</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
+				<key>subtext</key>
+				<string>⌘ = list others</string>
+				<key>text</key>
+				<string>Google for '{query}'</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
+			<string>alfred.workflow.trigger.fallback</string>
 			<key>uid</key>
-			<string>CFA34215-ED7D-448E-B73A-C3998A8C1AE6</string>
+			<string>C5B022E8-F557-41F0-8FF8-B3A9FF596214</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
-			<key>config</key>
-			<dict>
-				<key>applescript</key>
-				<string>on alfred_script(q)	
-	tell application "Google Chrome"
-		activate
-		set w to make new window
-		set URL of active tab of w to my searchUrl(q)
-	end tell
-end alfred_script
-
-to searchUrl(input)
-	return "https://www.google.com/search?q=" &amp; input
-end searchUrl</string>
-				<key>cachescript</key>
-				<true/>
-			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.applescript</string>
+			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
-			<string>7686C74A-A33F-49C2-8231-40F1569A481A</string>
+			<string>38CB5299-5A1D-4D96-8397-FDB08AC71BA1</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>2</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>151A838F-81AF-4C78-AF51-632530A6CAC1</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>query=$1
-
-
-/usr/local/bin/chrome-cli open "https://www.google.com/search?q=$query" -i</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>5</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>1D069891-2539-416B-B800-085A44E22DF1</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>g</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
 				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"imagefile":"559c567be85ef275d979af965737476379d7f777.png","title":"Keyboard Maestro","arg":"keyboard maestro","subtitle":"keyboard maestro"},{"imagefile":"7488fd93d67c8a45765febcd54a9852026ccca5c.png","title":"Alfred","arg":"alfred"},{"imagefile":"b42fb3085b819298a4a36e7ffd5bbdc05d153afb.png","title":"Github","arg":"site:github.com","subtitle":""},{"imagefile":"c4e038f6ab05f9418038adc862cf4322af6309b9.png","title":"Hazel","arg":"hazel"},{"title":"Search Google","subtitle":""},{"imagefile":"b252497307d96839dd72896145f0ff4284407528.png","title":"Bloons","arg":"site:reddit.com btd6"},{"imagefile":"e2dd93b7e4fd01065d58a82cf8cfd61e843f8077.png","title":"Animal Crossing","arg":"Animal Crossing"},{"imagefile":"e3e1b3c31891e99c63042fcd13d9eb1e9cf2a6d3.png","title":"Bash","arg":"bash"}]</string>
+				<key>keyword</key>
+				<string>seach</string>
 				<key>runningsubtext</key>
 				<string></string>
-				<key>script</key>
-				<string>./node_modules/.bin/run-node search.js "$1"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
 				<key>subtext</key>
-				<string>this will open in a new chrome window</string>
+				<string></string>
 				<key>title</key>
-				<string>Search Google</string>
-				<key>type</key>
-				<integer>0</integer>
+				<string>Chose a Serach Modifier</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
+			<string>alfred.workflow.input.listfilter</string>
 			<key>uid</key>
-			<string>DFC5A037-E66B-4EB7-BAFE-02D533F9E4A3</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>query=$1
-
-
-/usr/local/bin/chrome-cli open "https://www.google.com/search?q=$query"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>5</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>77ACA42E-0216-46CD-B8BE-7F4079AA30CC</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>subtext</key>
-				<string>this will open in a new chrome window</string>
-				<key>text</key>
-				<string>Search Google</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>BAAEEC3C-74C9-4C06-946E-B010D9AFE92C</string>
+			<string>3EF4B360-E876-4B64-A95E-2AEA71D1F461</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>subtext</key>
-				<string>this will open in a new chrome window</string>
-				<key>text</key>
-				<string>Search Google</string>
-				<key>withspace</key>
-				<true/>
+				<key>argument</key>
+				<string>{query} {var:search}</string>
+				<key>variables</key>
+				<dict/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>264A09D9-DE34-403A-9524-C67F6525811D</string>
+			<string>6B677F8C-DBDF-490D-B5FB-23D94205F4B1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>variables</key>
+				<dict>
+					<key>search</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>F1D4564D-E288-4732-8416-492BCC3510AF</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -341,78 +325,86 @@ end searchUrl</string>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>151A838F-81AF-4C78-AF51-632530A6CAC1</key>
+		<key>026453CE-5E8E-4B55-A78F-E6EA5FEE3E86</key>
 		<dict>
 			<key>note</key>
-			<string>Search with clipboard contents</string>
+			<string>⌘ = New | ⌃ = Top (all) | ⌥ = Top (week) | fn = Top (month)</string>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>235</integer>
 			<key>ypos</key>
-			<integer>170</integer>
+			<integer>230</integer>
 		</dict>
-		<key>1D069891-2539-416B-B800-085A44E22DF1</key>
+		<key>2E8FCE1A-3683-497F-AF6F-7E96424E4BAF</key>
 		<dict>
 			<key>note</key>
-			<string>open in incorgnito mode</string>
+			<string>open in new window</string>
 			<key>xpos</key>
-			<integer>530</integer>
+			<integer>980</integer>
 			<key>ypos</key>
-			<integer>245</integer>
+			<integer>360</integer>
 		</dict>
-		<key>264A09D9-DE34-403A-9524-C67F6525811D</key>
+		<key>38CB5299-5A1D-4D96-8397-FDB08AC71BA1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>395</integer>
+			<integer>855</integer>
 			<key>ypos</key>
+			<integer>465</integer>
+		</dict>
+		<key>3EF4B360-E876-4B64-A95E-2AEA71D1F461</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>xpos</key>
 			<integer>585</integer>
-		</dict>
-		<key>7686C74A-A33F-49C2-8231-40F1569A481A</key>
-		<dict>
-			<key>xpos</key>
-			<integer>720</integer>
 			<key>ypos</key>
-			<integer>170</integer>
+			<integer>575</integer>
 		</dict>
-		<key>77ACA42E-0216-46CD-B8BE-7F4079AA30CC</key>
+		<key>6B677F8C-DBDF-490D-B5FB-23D94205F4B1</key>
 		<dict>
 			<key>note</key>
-			<string>open in new tab</string>
+			<string>query = selection + search var</string>
 			<key>xpos</key>
-			<integer>600</integer>
+			<integer>800</integer>
 			<key>ypos</key>
-			<integer>415</integer>
+			<integer>605</integer>
 		</dict>
-		<key>BAAEEC3C-74C9-4C06-946E-B010D9AFE92C</key>
+		<key>C5B022E8-F557-41F0-8FF8-B3A9FF596214</key>
 		<dict>
+			<key>note</key>
+			<string>1. Right-click the canvas and add Triggers &gt; Fallback Search.
+
+2. Add the title you want to show for your Fallback Search.</string>
 			<key>xpos</key>
-			<integer>630</integer>
+			<integer>240</integer>
 			<key>ypos</key>
-			<integer>580</integer>
+			<integer>435</integer>
 		</dict>
 		<key>CFA34215-ED7D-448E-B73A-C3998A8C1AE6</key>
 		<dict>
 			<key>note</key>
 			<string>Search for selected text</string>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>225</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>90</integer>
 		</dict>
-		<key>DDF38F23-0AA3-440F-9C4C-BF42994F0224</key>
+		<key>DFE81DF4-B35B-46E2-9687-47BBF26AD2AA</key>
 		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>230</integer>
+		</dict>
+		<key>F1D4564D-E288-4732-8416-492BCC3510AF</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
 			<key>note</key>
-			<string>open in new window</string>
+			<string>move query to search var</string>
 			<key>xpos</key>
-			<integer>390</integer>
+			<integer>470</integer>
 			<key>ypos</key>
-			<integer>10</integer>
-		</dict>
-		<key>DFC5A037-E66B-4EB7-BAFE-02D533F9E4A3</key>
-		<dict>
-			<key>xpos</key>
-			<integer>175</integer>
-			<key>ypos</key>
-			<integer>400</integer>
+			<integer>605</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
